@@ -1,0 +1,60 @@
+{
+    "products":[
+        {
+            "id":0,
+            "category" :"bags",
+            "picture": "owl-bag.JPG",
+            "pictureText": "owl bag",
+            "description": "Big tote bag with a cute owl printing",
+            "price": "49.99$"
+        },
+        {
+            "id" :1,
+            "category" : "bags",
+            "picture" : "grey-tote-bag.JPG",
+            "pictureText" : "grey tote bag",
+            "description" : "Grey tote bag, an elegant bag for everyday use ",
+            "price" : "59.99$"
+        },
+        {
+            "id" :2,
+            "category" : "bags",
+            "picture" : "off-white-tote-medalion.JPG",
+            "pictureText" : "off-white tote with golden medalion",
+            "description" : "Elegant tote bag for the evening",
+            "price" : "79.99$"
+        },
+        {
+            "id" :3,
+            "category" : "jewels",
+            "picture" : "chinese-medalion.jpg",
+            "pictureText" : "chinese medalion",
+            "description" : "Antiqued medalion inspired by chinese art",
+            "price" : "14.99$"
+        },
+        {
+            "id" :4,
+            "category" : "bags",
+            "picture" : "cat-sack.JPG",
+            "pictureText" : "cat sack",
+            "description" : "Cat sack for shoping or grocery",
+            "price" : "29.99$"
+        },
+        {
+            "id" :5,
+            "category" : "jewels",
+            "picture" : "leaf-necklace.jpg",
+            "pictureText" : "leaf necklace",
+            "description" : "Leaf necklace inspired by the beauty of nature ",
+            "price" : "$"
+        },
+        {
+            "id" :6,
+            "category" : "jewels",
+            "picture" : "buds-necklace.jpg",
+            "pictureText" : "buds necklace",
+            "description" : "Simple yet elegant buds necklace",
+            "price" : "9.99$"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "users" : [
+        {
+            "userid" : 0,
+            "userName": "gal",
+            "password": "1234",
+            "userType": "admin",
+            "profilePicture": "./images/gal-profile.jpg",
+            "cart":[]
+        },
+        {
+            "userid":1,
+            "userName": "shirel",
+            "password": "1234",
+            "userType": "buyer",
+            "profilePicture": "./images/shirel-profile.jpg",
+            "cart":[        {
+                "id" :1,
+                "category" : "bags",
+                "picture" : "grey-tote-bag.JPG",
+                "pictureText" : "grey tote bag",
+                "description" : "Grey tote bag, an elegant bag for everyday use ",
+                "price" : "59.99$"
+            }]
+        }
+    ]
+}

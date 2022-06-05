@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: antiquewhite;
+    
+    
+}
+button{
+    background-color: antiquewhite;
+}
+
+.product{
+    height: 370px;
+    width: 200px;
+    align-content: center;
+    display: inline-block;
+    border-style: solid;
+    background-color: rgb(224, 200, 165);
+    border-color: rgb(224, 200, 165);
+    border-width: 1px;
+    margin: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+.product-info{
+    background-color: inherit;
+    margin: 20px;
+}
+#product-page{
+    
+    text-align: center;
+    margin: auto;
+    height: 50%;
+    width: 50%;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color:rgb(224, 200, 165) ;
+    background-color: rgb(224, 200, 165) ;
+}
+#product-page-picture{
+    margin: 20px;
+    height: 50%;
+    width:50% ;
+}
+.product-picture{
+    margin: 10px;
+    height: 150px;
+    width: 150px; 
+    ;
+}
+#product-conteiner{
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+#logo{
+    mix-blend-mode: multiply;
+    height: 60px;
+    width: 70px; 
+    display: inline-flex;
+    margin: 0;
+}
+
+
+#profile-interface{
+    mix-blend-mode:normal;
+    background-color: antiquewhite;
+}
+
+#profile-picture{
+    mix-blend-mode:normal;
+    height: 50px;
+    width: 40px;
+}
+#top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-image: url("./compponents/images/headerbackround.jpeg");
+    background-color: antiquewhite;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    margin-top: 0%;
+
+}
+#login-button{
+    margin: 0;
+}
+
+#aotocomplete{
+    
+    display: block;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    cursor: pointer;
+    border-top: 0px;
+    border-right: 1px;
+    border-bottom: 1px;
+    border-left: 1px;
+    border-style: solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color:lavender;
+    
+}
+.suggestion{
+    
+    display: inline-block;
+    padding: 5px 20px 5px;
+}
+.categoryName{
+    position: relative;
+    bottom: 20%;
+
+    border: 1px;
+    border-style: solid;
+    background-color: black;
+    color:aliceblue;
+    width: inherit;
+    text-align: center;
+
+}
+.categoryImage{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.imageContainer{
+    max-width: 30%;
+
+}
+#categoryContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between
+}
